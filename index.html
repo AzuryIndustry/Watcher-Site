@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watcher</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <header>
+        <h1 class="logo">Watcher</h1>
+        <nav>
+            <ul class="nav-area top-nav">
+                <li><a href="#top">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#commands">Commands</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+        </nav>
+        <a href="https://discord.com/api/oauth2/authorize?client_id=851537757981114389&permissions=14337&scope=bot%20applications.commands" class="btn-area">Invite</a>
+    </header>
+    <!-- navbar end -->
+    <!-- home -->
+    <div class="wrapper">
+        <div class="home" id="home">
+            <div class="home-text">
+                <h1 id="botname">Watcher</h1>
+                <h3 style="margin-left: 0;">Create custom branded discord bots to help track metric activity on your server and more!</h3>
+                <p class="bot-description">
+                    <!-- add some tags -->
+                    <style>
+                        .tag {
+                            background-color: #2f3136;
+                            color: #fff;
+                            padding: 5px;
+                            border-radius: 5px;
+                            margin-right: 5px;
+                            font-size: 12px;
+                            font-weight: 500;
+                        }
+                    </style>
+                    <span class="tag">#utility</span> <span class="tag">#tracking</span> <span class="tag">#management</span>
+                </p>
+                <button onclick="window.location.href='https://dsc.gg/azuryindustry'" class="home-btn">Get started</button>
+            </div>
+            <div class="home-img">
+                <img src="https://cdn.discordapp.com/attachments/1137562848298545213/1138608686303019019/image.png"alt="">
+            </div>
+        </div>
+    </div>
+    <!-- home end -->
+    <!-- features -->
+    <div class="features">
+        <div class="curve">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill-opacity="1" id="features"
+                    d="M0,128L48,149.3C96,171,192,213,288,229.3C384,245,480,235,576,202.7C672,171,768,117,864,96C960,75,1056,85,1152,106.7C1248,128,1344,160,1392,176L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                </path>
+            </svg>
+        </div>
+        <div class="wrapper reveal">
+            <div class="title">
+                <div class="th1">
+                    <h1>We Provide The Best</h1>
+                </div>
+                <center>
+                    <div class="thr">
+                        <hr>
+                    </div>
+                </center>
+            </div>
+            <!-- feature start -->
+            <div class="features-grid">
+                <div class="feature feature1">
+                    <i class="fas fa-clipboard-list"></i>
+                    <h4>Metric Tracking</h4>
+                    <p>Watcher's hosts include the ability to track messages, invites, and much more in your server.</p>
+
+                </div>
+                <!-- feature end -->
+                <!-- feature start -->
+                <div class="feature feature2">
+                    <i class="fas fa-server"></i>
+                    <h4>Easy to use</h4>
+                    <p>Watcher's advanced Bot Creation system is easy and simple to use. Create hosts with eaise.</p>
+
+                </div>
+                <!-- feature end -->
+                <!-- feature start -->
+                <div class="feature feature3">
+                    <i class="fab fa-angellist"></i>
+                    <h4>Fast Process</h4>
+                    <p>Watcher's mainframe is running on a fast VPS Cloud network, allowing for fast hosts and reliable speed.</p>
+                </div>
+                <!-- feature end -->
+            </div>
+        </div>
+        <div class="curved">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill-opacity="1" id="commands"
+                    d="M0,224L48,229.3C96,235,192,245,288,218.7C384,192,480,128,576,133.3C672,139,768,213,864,229.3C960,245,1056,203,1152,186.7C1248,171,1344,181,1392,186.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                </path>
+            </svg>
+        </div>
+    </div>
+    <!-- features end -->
+    <!-- commands -->
+    <div class="wrapper reveal">
+        <div class="title">
+            <div class="th1">
+                <h1>All Commands</h1>
+            </div>
+            <center>
+                <div class="thr">
+                    <hr>
+                </div>
+            </center>
+        </div>
+        <!-- Command Category -->
+        <nav>
+            <div class="categorys">
+                <span class="category active" data-name="all">All</span>
+                <span class="category" data-name="watcher">Watcher</span>
+                <span class="category" data-name="hosts">Hosts</span>
+            </div>
+        </nav>
+        <!-- Commands -->
+        <div class="commands">
+            <!-- Command Start -->
+            <div class="command" data-name="watcher">
+                <h2>/help</h2><span>
+                    <div class="cmdinfo">
+                        <p>View what Watcher is all about!</p>
+                    </div>
+                </span>
+            </div>
+            <div class="command" data-name="watcher">
+                <h2>/invite</h2><span>
+                    <div class="cmdinfo">
+                        <p>Invite Watcher to your server to start creating hosts!</p>
+                    </div>
+                </span>
+            </div>
+            <div class="command" data-name="watcher">
+                <h2>/create</h2><span>
+                    <div class="cmdinfo">
+                        <p>Create a host for your server!</p>
+                    </div>
+                </span>
+            </div>
+            <div class="command" data-name="watcher">
+                <h2>/manage</h2><span>
+                    <div class="cmdinfo">
+                        <p>Manage your hosts!</p>
+                    </div>
+                </span>
+            </div>
+            <div class="command" data-name="watcher">
+                <h2>/profile</h2><span>
+                    <div class="cmdinfo">
+                        <p>View your profile!</p>
+                    </div>
+                </span>
+            </div>
+            <div class="command" data-name="watcher">
+                <h2>/upgrade</h2><span>
+                    <div class="cmdinfo">
+                        <p>Upgrade your account profile!</p>
+                    </div>
+                </span>
+            </div>
+            <!-- Command End -->
+            <!-- Command Start -->
+            
+            <div class="command" data-name="hosts">
+                <h2>/help</h2><span>
+                    <div class="cmdinfo">
+                        <p>View the bot information!</p>
+                    </div>
+                </span>
+            </div>
+            <div class="command" data-name="hosts">
+                <h2>/invites</h2><span>
+                    <div class="cmdinfo">
+                        <p>View a user's invites!</p>
+                    </div>
+                </span>
+            </div>
+            <div class="command" data-name="hosts">
+                <h2>/messages</h2><span>
+                    <div class="cmdinfo">
+                        <p>View a user's messages!</p>
+                    </div>
+                </span>
+            </div>
+            <div class="command" data-name="hosts">
+                <h2>/setup welcome</h2><span>
+                    <div class="cmdinfo">
+                        <p>Setup a welcome system for your server!</p>
+                    </div>
+                </span>
+            </div>
+            <div class="command" data-name="hosts">
+                <h2>/setup leave</h2><span>
+                    <div class="cmdinfo">
+                        <p>Setup a leave system for your server!</p>
+                    </div>
+                </span>
+            </div>
+            <!-- Command End -->
+            
+        </div>
+    </div>
+    <!-- commands end -->
+    <!-- faq -->
+    <div class="faq">
+        <div class="curve">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill-opacity="1" id="faq"
+                    d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                </path>
+            </svg>
+        </div>
+        <div class="wrapper reveal">
+            <main id="questions" role="main">
+                <div class="title">
+                    <div class="th1">
+                        <h1>Frequently Asked Questions</h1>
+                    </div>
+                    <center>
+                        <div class="thr">
+                            <hr>
+                        </div>
+                    </center>
+                </div>
+                <input type="text" class="live-search-box" placeholder="Search an Answer..." />
+                <!-- question start -->
+                <div class="topic">
+                    <div class="open">
+
+                        <h2 class="question">Is the service of creating hosts free?</h2>
+                        <span class="faq-t"></span>
+                    </div>
+                    <p class="answer">Yes, all of our services are free, only cost are <b>Watcher Coins</b> which are earned in the <a href="https://discord.gg/azuryindustry">support</a> discord server.</p>
+                </div>
+                <!-- question end -->
+                <!-- question start -->
+                <div class="topic">
+                    <div class="open">
+
+                        <h2 class="question">How do I get a custom host?</h2>
+                        <span class="faq-t"></span>
+                    </div>
+                    <p class="answer">You can get a custom host by inviting <a href="https://discord.com/api/oauth2/authorize?client_id=851537757981114389&permissions=14337&scope=bot%20applications.commands">Watcher</a> to your server and using the <code>/create</code> command.</p>
+                </div>
+                <!-- question end -->
+                <!-- question start -->
+                <div class="topic">
+                    <div class="open">
+
+                        <h2 class="question">My host is not working, what do I do?</h2>
+                        <span class="faq-t"></span>
+                    </div>
+                    <p class="answer">If your Watcher host is not working, you can simple use the <code>/manage</code> command to restart your service, if that doesnt work then join our <a href="https://discord.gg/azuryindustry">support</a> discord server and ask for help.</p>
+                </div>
+                <!-- question end -->
+            </main>
+        </div>
+
+        <!-- add a line -->
+        <style>
+            .line {
+                width: 80%;
+                height: 1px;
+                background-color: #2f3136;
+                margin-top: 50px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
+        <div class="line"></div>
+
+        <footer>
+            <div class="wrapper">
+                <div class="foot">
+                    <h1>@Watcher</h1>
+                    <nav>
+                        <ul class="nav-area bottom-nav">
+                            <li><a href="#top">Home</a></li>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#commands">Commands</a></li>
+                            <li><a href="#faq">FAQ</a></li>
+                        </ul>
+                    </nav>
+                    <h4>Copyright ©2023 Azury Industries</h4>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- faq end -->
+
+    <script src="main.js"></script>
+    <script src="commands.js"></script>
+    <script src="https://code.iconify.design/1/1.0.4/iconify.min.js">   </script>
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</body>
+
+
+</html>
